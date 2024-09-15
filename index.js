@@ -1,18 +1,14 @@
-// Hello World
-let mensagem = "Hello World"
-mensagem = 2
-// console.log(mensagem);
-
-// Arrays, Objetos
-let metas = ["Arthur", "William"]
-// console.log(metas[0] + " " + metas[1])
-
 let meta = {
-    value: "ler um livro por mês",
+    value: "Ler um livro por mês",
     checked: false,
 }
-console.log(meta.value)
 
-// Função //Arrow Function
-// function criarMeta() {}
-const criarMeta = () => {}
+let metas = [
+    meta,
+    {
+        value: "caminhar 20 minutos todos os dias",
+        checked: false,
+    }
+]
+
+console.log(metas[0].value)
